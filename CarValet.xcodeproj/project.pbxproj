@@ -85,17 +85,17 @@
 		639C68B419BD19430044A06E /* CarValet */ = {
 			isa = PBXGroup;
 			children = (
+				639C68BF19BD19430044A06E /* Main.storyboard */,
 				639C68B919BD19430044A06E /* AppDelegate.h */,
 				639C68BA19BD19430044A06E /* AppDelegate.m */,
 				639C68BC19BD19430044A06E /* ViewController.h */,
 				639C68BD19BD19430044A06E /* ViewController.m */,
-				639C68BF19BD19430044A06E /* Main.storyboard */,
-				639C68C219BD19430044A06E /* Images.xcassets */,
-				639C68B519BD19430044A06E /* Supporting Files */,
 				639C68D819BD1B730044A06E /* Car.h */,
 				639C68D919BD1B730044A06E /* Car.m */,
 				639C68DB19BD37D30044A06E /* HybridCar.h */,
 				639C68DC19BD37D30044A06E /* HybridCar.m */,
+				639C68C219BD19430044A06E /* Images.xcassets */,
+				639C68B519BD19430044A06E /* Supporting Files */,
 			);
 			path = CarValet;
 			sourceTree = "<group>";
@@ -416,6 +416,7 @@
 				639C68D419BD19430044A06E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		639C68D519BD19430044A06E /* Build configuration list for PBXNativeTarget "CarValetTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +425,7 @@
 				639C68D719BD19430044A06E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

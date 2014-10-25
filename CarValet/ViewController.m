@@ -24,6 +24,8 @@
 -(void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
     
+    /* 
+    // removed per page 56
     Car *myCar = [[Car alloc] init]; // myCar object allocated and initialized as instance of Car class.
     [myCar printCarInfo]; // printCarInfo method called, currently undefined.
     myCar.make = @"Ford"; // variables set.
@@ -32,10 +34,15 @@
     myCar.fuelAmount = 10.0f;
     
     [myCar printCarInfo]; // printCarInfo method called again, but this time make & model are set.
+    */
     
     Car *otherCar = [[Car alloc] initWithMake:@"Honda" model:@"Accord" year:2010 fuelAmount:12.5f]; // new car created & variables set.
     
     [otherCar printCarInfo]; // printCarinfo method called on new car.
+    
+    // added per page 56:
+    [otherCar shoutMake];
+    [otherCar printCarInfo];
     
     HybridCar *myHybrid = [[HybridCar alloc] initWithMake:@"Toyota" model:@"Prius" year:2012 fuelAmount:8.3f MPG:42.0f];
     

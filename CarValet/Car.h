@@ -30,7 +30,9 @@
         fuelAmount: (float)fuelAmount;
 
  
--(void)printCarInfo:
+-(void)printCarInfo;
+
+- (void)shoutMake;
 
 //removing per Properties page 50
 /*
