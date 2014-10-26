@@ -22,7 +22,11 @@
 }
 
 
--(id)initWithMake:(NSString *)make model:(NSString *)model year:(int)year fuelAmount:(float)fuelAmount MPG:(float)MPG {
+-(id)initWithMake:(NSString *)make
+            model:(NSString *)model
+             year:(int)year
+       fuelAmount:(float)fuelAmount
+              MPG:(float)MPG {
     self = [super initWithMake:make model:model year:year fuelAmount:fuelAmount];
     
     if (self != nil) {

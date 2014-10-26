@@ -42,6 +42,7 @@
     
     // added per page 56:
     [otherCar shoutMake];
+    otherCar.showLiters = YES;
     [otherCar printCarInfo];
     
     HybridCar *myHybrid = [[HybridCar alloc] initWithMake:@"Toyota" model:@"Prius" year:2012 fuelAmount:8.3f MPG:42.0f];

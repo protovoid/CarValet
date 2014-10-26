@@ -10,10 +10,19 @@
 
 @interface Car : NSObject
 
-@property int year;
-@property NSString *make;
-@property NSString *model;
-@property float fuelAmount;
+@property (nonatomic) int year;
+@property (nonatomic) NSString *make;
+@property (nonatomic) NSString *model;
+// @property (nonatomic) float fuelAmount;
+@property (nonatomic, getter = isShowingLiters) BOOL showLiters;
+
+@property (nonatomic, setter=setTheFuelAmountTo:) float fuelAmount;
+// for above use [aCar setTheFuelAmountTo:20.0f];
+
+
+//if (aCar.isShowingLiters) {
+//    aCar.showLiters = NO;
+//}
 
 /*
 {

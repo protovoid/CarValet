@@ -58,11 +58,20 @@
     }
 }
 
+
+
 - (void)shoutMake {
     self.make = [self.make uppercaseString];
 }
 
 
+// added page 57
+- (float)fuelAmount {
+    if (self.isShowingLiters) {
+        return (_fuelAmount * 3.7854);
+    }
+    return _fuelAmount;
+}
 
 //removing per Properties page 50
 /*
