@@ -53,6 +53,10 @@
         NSLog(@"Car Model: %@", _model);
         NSLog(@"Car Year: %d", _year);
         NSLog(@"Number of Gallons in Tank: %0.2f", _fuelAmount);
+    } else if (self.make == nil) {
+        NSLog(@"Car undefined: no make specified.");
+    } else if (self.model == nil) {
+        NSLog(@"Car undefined: no model specified.");
     } else {
         NSLog(@"Car undefined: no make or model specified.");
     }
